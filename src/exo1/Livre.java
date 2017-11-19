@@ -46,4 +46,15 @@ public Livre() {//constructeur de la classe
            this.Etat=etat;
            
        }
+       public String toString(){
+           return "Num du livre: " + this.NumL +
+	  "  Titre du livre :  " + this.Titre +" Editeur du livre  " + this.Editeur + 
+                   "Auteur du livre:" + this.Auteur + "la date de l'achat " +date[0]+date[1]+"/"
+                   +date[2]+date[3]+"/"+date[4]+date[5]+date[6]+date[7] + "l'état du livre" +this.Etat
+                   ;
+           
+           
+}
+       
+       
 }

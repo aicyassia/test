@@ -35,5 +35,12 @@ public Client() {//constructeur de la classe
           this.Caution=caution; 
        
        }
+       public String toString(int num, String nom, String ad, String caut){
+           return "Num du client: " + this.NumC +
+	  "  Nom du client:  " + this.Nom +" Adresse du client " + this.Adresse + 
+                   "caution:" + this.Caution ; 
+           
+}
+       
        
 }
