@@ -32,6 +32,8 @@ public Client() {//constructeur de la classe
       public void setAd(String adresse){
           this.Adresse=adresse;}
        public void setCau(String caution){
-          this.Caution=caution; }
+          this.Caution=caution; 
+       
+       }
        
 }

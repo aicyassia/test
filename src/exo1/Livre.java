@@ -44,5 +44,6 @@ public Livre() {//constructeur de la classe
        }
        public void setetat(String etat){
            this.Etat=etat;
+           
        }
 }
