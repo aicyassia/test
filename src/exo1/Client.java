@@ -13,12 +13,25 @@ public Client() {//constructeur de la classe
     Nom="inconnu";
     Adresse="inconnu";
     Caution="inconnu";
-           
-    
-    
-    
     
 }
-    
-    
+//ajouter les getter 
+    public int getNumC(){
+        return NumC;}
+    public String getNom(){
+        return Nom;}
+     public String getAdresse(){
+        return Adresse ; }
+      public String getCaution(){
+        return Caution; }
+    //ajouter les setteur 
+      public void setNumC(int numC){
+          this.NumC=numC; }
+     public void setNom(String nom){
+          this.Nom=nom; }
+      public void setAd(String adresse){
+          this.Adresse=adresse;}
+       public void setCau(String caution){
+          this.Caution=caution; }
+       
 }
